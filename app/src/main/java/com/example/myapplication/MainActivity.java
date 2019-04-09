@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         loginbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (username.getText().toString().equals("") && password.getText().toString().equals("")) {
+                if (username.getText().toString().equals("ruben") && password.getText().toString().equals("ruben")) {
                     Toast.makeText(getApplicationContext(),"Redirecting...", Toast.LENGTH_LONG).show();
 
                     Intent activity2Intent = new Intent(getApplicationContext(), SecondActivity.class);
